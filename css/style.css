@@ -1,0 +1,95 @@
+
+
+.historia {
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: bold; /* fuente (negrita) */
+    font-style: italic; /* fuente (cursiva) */
+    color: #333; /* Color de la fuente (gris oscuro) */
+    line-height: 1.8; /*Altura de la línea (espacio entre las líneas de texto) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Sombra en el texto */
+    
+}
+.contenedor-logo {
+    display: flex;
+    justify-content: center; /* Centra el logo horizontalmente */
+    align-items: center;     /* Centra el logo verticalmente (si es necesario) */
+    height: 150px;           /* Puedes ajustar la altura del contenedor según necesites */
+    width: 100%;             /* El contenedor ocupa todo el ancho */
+    text-align: center;
+    border-radius: 10px; /* Bordes redondeados, opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra alrededor del contenedor, opcional */
+}
+
+
+.logo {
+    width: 400px;  /* tamaño */
+    height: auto;  /* Mantiene las proporciones */
+    max-width: 100%;  /* Asegura que no se agrande más allá del contenedor */
+}
+.Informacion {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+    
+    
+
+
+h2:hover {
+    font-size: 25px;
+    background-color: rgb(108, 52, 240);
+    color: rgb(252, 208, 142);
+}
+.link:visited {
+    color: #333;
+    font-size: 18px;
+    
+}
+
+
+.link {
+    
+    margin-top: 10px; /* Espacio superior entre el párrafo y el enlace */
+    padding: 10px 25px; /* Espaciado interno del enlace */
+    background-color: #80baf879; /* Fondo azul para el enlace */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+#Presentacion {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para la sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Sombra para el contenedor */
+    border-radius: 8px;
+    display: flex; /* Usamos flexbox dentro del contenedor */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos dentro de la sección */
+    align-items: center; /* Centra horizontalmente los elementos */
+    height: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que las tarjetas se ajusten al espacio disponible */
+    gap: 20px;  /* Espaciado entre las tarjetas */
+    justify-content: center;  /* Centra las tarjetas en el contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+.Tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid rgba(58, 103, 114, 0.685);
+    padding: 10px;
+    box-shadow: 1px 1px 3px gray;
+    
+
+    }
+    .Tarjeta img {
+        max-width: 100%;
+        max-height: 300px;
+
+    }
